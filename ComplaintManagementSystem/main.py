@@ -5,7 +5,6 @@ from managers import ComplaintManager, ReportManager
 from ui import LoginFrame, ApplicationFrame
 from pathlib import Path
 
-
 class SmartComplaintApplication(ctk.CTk):
     """Composition root. No module-level mutable application state."""
     def __init__(self):
